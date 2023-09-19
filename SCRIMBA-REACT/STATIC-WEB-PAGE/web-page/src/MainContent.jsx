@@ -4,7 +4,7 @@ const MainContent = () => {
 
   return (
 
-    <div>
+    <div className='main-content'>
       <h1>Reasons I'm excited to learn React</h1>
 
       <ol>

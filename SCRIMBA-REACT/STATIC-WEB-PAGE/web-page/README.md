@@ -32,6 +32,7 @@ Hints:
 
 - Add an `ul` inside the Header's `nav` and create
   the following `li`s: "Pricing", "About", & "Contact"
-
+- Using flexbox, line up the nav items horizontally, and
+  put them inline with the React logo.
 
 

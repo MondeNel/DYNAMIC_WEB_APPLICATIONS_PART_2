@@ -27,3 +27,11 @@ Hints:
 - Add a `footer` after the list that says: 
     "© 20xx <last name here> development. All rights reserved."
 
+
+### Challenge 3: 
+
+- Add an `ul` inside the Header's `nav` and create
+  the following `li`s: "Pricing", "About", & "Contact"
+
+
+

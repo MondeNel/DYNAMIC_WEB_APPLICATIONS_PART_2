@@ -6,6 +6,11 @@ const Header = () => {
         <header>
             <nav>
                 <img src={reactLogo} className="logo react" alt="React logo" />
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )

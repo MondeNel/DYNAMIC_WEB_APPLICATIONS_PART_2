@@ -2,20 +2,25 @@ import React from 'react'
 import reactLogo from './assets/react.svg'
 
 const Page = () => {
+
   return (
+
     <div>
 
-      <img src={reactLogo} className="logo react" alt="React logo" />
+      <header>
+        <nav>
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </nav>
+      </header>
 
-      <h1>Fun Facts About React</h1>
+      <h1>Reasons I'm excited to learn React</h1>
 
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walke</li>
-        <li>Has well over a 100K stars on Github</li>
-        <li>Is maintained by Facebook</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
+      <ol>
+        <li>It's a popular library</li>
+        <li>I'm more likely to get a job as a developer if I know React</li>
+      </ol>
+
+      <footer>© 20xx development. All rights reserved</footer>
 
     </div>
   )

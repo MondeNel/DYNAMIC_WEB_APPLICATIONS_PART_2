@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
     font-family: Inter, sans-serif;
+
+}
+
+body {
+    background-color: #282D35;
+    margin: 0;
 }
 
 
@@ -18,6 +24,10 @@
     background-color: #21222A;
     padding: 10px 20px;
     color: white;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
 }
 
 .logo-text {
@@ -40,9 +50,24 @@
 /* =========================== Main-Content ========================== */
 
 .main-content {
-    font-size: 1.2rem;
+    padding: 120px 50px;
+    color: white;
 }
 
+.main-title {
+    font-size: 2.5rem;
+}
+
+.main-list {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    max-width: 500px;
+}
+
+.main-list>li {
+    padding: 5px;
+}
 
 
 
@@ -61,7 +86,9 @@
     color: #61DAFB;
     padding: 20px 0;
     text-align: center;
-    margin-top: 345px;
-    width: auto;
     font-size: large;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }

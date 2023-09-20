@@ -1,25 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+
 /* =========================== Header ========================== */
 
 .logo-react {
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #21222A;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo-text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.title-text {
+    margin-left: auto;
 }
 
 
-.nav-items {
-    list-style: none;
-    display: flex;
-}
 
-.nav-items>li {
-    padding: 20px;
-    font-size: 1.3rem;
-}
+
 
 
 
@@ -31,14 +45,23 @@
 
 
 
+
+
+
+
+
+
+
+
 /* ============================== Footer ============================= */
 
 
 .footer-container {
-    background-color: #73dcfc;
-    color: white;
+    background-color: #21222A;
+    color: #61DAFB;
     padding: 20px 0;
     text-align: center;
     margin-top: 345px;
     width: auto;
+    font-size: large;
 }

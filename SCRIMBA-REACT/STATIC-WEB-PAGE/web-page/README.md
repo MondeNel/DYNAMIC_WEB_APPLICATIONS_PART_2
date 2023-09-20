@@ -55,3 +55,12 @@ Hints:
   the `<link/>` elements instead of the @import or npm options for getting
   the fonts. You may need to do some extra research to figure out how this 
   works if you haven't done it before)
+
+
+### Challenge 5: Build the main section!
+
+Skip 2 aspects of the design for now:
+1. The colored bullets in the list
+2. The larger React logo on the side
+
+Those will be separate challenges coming up.

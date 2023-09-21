@@ -1,14 +1,42 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     margin: 0;
 }
 
+
+/* =========================================== Nav ========================================= */
+
 nav {
-    height: 100px;
     display: flex;
+    height: 80px;
     padding: 0px 20px;
     box-shadow: 4px 4px 8px #adadad;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+
+/* =========================================== Hero ========================================= */
+
+section {
+    padding: 100px;
+}
+
+.project-image {
+    display: flex;
+
+}
+
+.hero-header {
+    margin-bottom: 16
+}
+
+.hero-text {
+    max-width: 550px;
 }

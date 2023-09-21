@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    padding: 0px 20px;
+    box-shadow: 4px 4px 8px #adadad;
+}

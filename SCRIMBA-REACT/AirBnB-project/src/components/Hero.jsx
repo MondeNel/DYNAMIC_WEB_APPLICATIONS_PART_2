@@ -1,5 +1,9 @@
-import React from 'react'
+import React from 'react';
 
+/**
+ * Represents a Hero section displaying an image and a title with text.
+ * @returns {JSX.Element} The rendered Hero component.
+ */
 const Hero = () => {
     return (
         <section>
@@ -12,8 +16,7 @@ const Hero = () => {
                     one-of-a-kind hosts—all without leaving home.</p>
             </div>
         </section>
-
-    )
+    );
 }
 
-export default Hero
+export default Hero;

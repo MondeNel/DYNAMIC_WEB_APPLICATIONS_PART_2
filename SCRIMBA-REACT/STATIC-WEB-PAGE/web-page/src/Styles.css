@@ -69,6 +69,11 @@ body {
     padding: 5px;
 }
 
+li::marker {
+    font-size: 1.2em;
+    color: #61DAFB;
+}
+
 
 
 

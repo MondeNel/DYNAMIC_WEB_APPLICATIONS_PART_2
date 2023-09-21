@@ -52,6 +52,11 @@ body {
 .main-content {
     padding: 120px 50px;
     color: white;
+    background-image: url('./assets/react.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 220%;
+    background-size: 20%;
 }
 
 .main-title {

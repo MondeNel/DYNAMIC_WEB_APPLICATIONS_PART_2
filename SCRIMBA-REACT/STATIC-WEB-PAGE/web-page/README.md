@@ -64,3 +64,18 @@ Skip 2 aspects of the design for now:
 2. The larger React logo on the side
 
 Those will be separate challenges coming up.
+
+
+ 
+### Challenge 6: Place the gray react logo in the background
+
+- Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)

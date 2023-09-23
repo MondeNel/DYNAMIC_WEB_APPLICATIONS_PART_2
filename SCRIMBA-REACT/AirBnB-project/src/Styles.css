@@ -123,3 +123,27 @@ section {
 .form-button:hover {
     background-color: #0056b3;
 }
+
+/* ========================================= Card ===================================== */
+
+
+.container {
+    margin-left: 20px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    margin-right: 8px;
+}
+
+.gray {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}

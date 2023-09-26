@@ -1,23 +1,37 @@
 import React from 'react';
 import '@shoelace-style/shoelace/dist/components/rating/rating';
 
-const Card = (props) => {
 
+const Card = (props) => {
     return (
-        <div className='container'>
-            <img src={`./src/project-images/${props.img}`} alt="image" />
-            <div className="card-container">
-                <sl-rating
-                    value={props.rating}
-                    max={6}
-                    className="rating"
-                ></sl-rating>
-                <span className="gray">5.0({props.reviewCount}) • </span>
-                <span className="gray">{props.country}</span>
+
+        <section>
+
+            <div className='card'>
+                <img
+                    src={`/project-images/${props.img}`}
+                    alt="image"
+                    className="card-image"
+                />
+
+                <div className="card-stats">
+                    <sl-rating value={props.rating} max={1} className="card-star"></sl-rating>
+                    <span className="gray">({props.reviewCount}) • </span>
+                    <span className="gray">{props.location}</span>
+                </div>
+
+                <div className="card-title">
+                    <p>{props.title}</p>
+                </div>
+
+                <div className="card-price">
+                    <p><span className="bold">From ${props.price}</span> / person</p>
+                </div>
+
             </div>
-            <p>{props.title}</p>
-            <p><span className="bold">From ${props.price}</span> / person</p>
-        </div>
+
+
+        </section>
 
     );
 };

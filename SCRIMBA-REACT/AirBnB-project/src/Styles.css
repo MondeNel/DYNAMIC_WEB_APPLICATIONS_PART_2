@@ -25,7 +25,7 @@ nav {
 
 /* Styles for the Hero Section */
 section {
-    padding: 100px;
+    padding: 20px;
 }
 
 .project-image {
@@ -70,12 +70,11 @@ section {
     padding: 20px;
 }
 
-/* Styles for the Email Form */
 .email-container {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    width: 380px;
     margin: 20px;
 }
 
@@ -126,22 +125,47 @@ section {
 
 /* ========================================= Card ===================================== */
 
-
-.container {
-    margin-left: 20px;
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 }
 
-.card-container {
+.card {
+    width: 400px;
+    font-size: 17px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 12px;
+}
+
+.card-image {
+    width: 100%;
+    height: 430px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-stats {
     display: flex;
     align-items: center;
 }
 
-.rating {
-    margin-right: 8px;
+.card-star {
+    height: 14px;
 }
 
-.gray {
-    color: gray;
+.card-price {
+    margin-top: auto;
 }
 
 .bold {

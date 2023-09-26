@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="hero-container">
             <div className="hero-content">
                 <div className='project-image'>
-                    <img src="./src/project-images/group-image.png" alt="image" />
+                    <img src="./project-images/group-image.png" alt="image" />
                 </div>
                 <div>
                     <h1 className="hero-header">Online Experiences</h1>
@@ -16,7 +16,7 @@ const Hero = () => {
 
             <aside className="email-container">
                 <div>
-                    <h1 className="email-header">Contact Us</h1>
+                    <h1 className="email-header">Get in touch with us</h1>
                     <form className="email-form">
                         <div className="form-group">
                             <label htmlFor="name" className="form-label">Name : </label>

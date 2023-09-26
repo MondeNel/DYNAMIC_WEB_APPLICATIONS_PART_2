@@ -1,21 +1,42 @@
-# co38a4834950b81f65b4187b7
 
-Quick start:
+### Challenge 1 (map)
 
-```
-$ npm install
-$ npm start
-````
+Given an array of numbers, return an array of each number, squared
+``````
+const nums = [1, 2, 3, 4, 5]
+outcome [1, 4, 9, 16, 25]
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+const numbers = nums.map((num) => num * num);
+console.log(numbers);
+``````
+### Challenge 2 (map)
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Given an array of strings, return an array where 
+the first letter of each string is capitalized
+``````
+const names = ["alice", "bob", "charlie", "danielle"]
+outcome   ["Alice", "Bob", "Charlie", "Danielle"]
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+const capitalized = names.map((name) => {
+    return name[0].toUpperCase() + name.slice(1)
+})
 
-Happy Coding!
+console.log(capitalized)
+``````
+
+### challenge 3 (map)
+
+Given an array of strings, return an array of strings that wraps each
+of the original strings in an HTML-like <p></p> tag.
+
+Given: ["Bulbasaur", "Charmander", "Squirtle"]
+outcome: ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+
+``````
+const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+outcome ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+
+const wrappedPokemon = pokemon.map((characters)=>  `<p>${characters}</p>`);
+
+console.log(wrappedPokemon);
+``````

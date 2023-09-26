@@ -9,7 +9,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
     <Hero />
-    <Card />
+    <Card
+      img="kattie.png"
+      rating="5.0"
+      reviewCount={6}
+      country="USA"
+      title="Life Lessons with Katie Zaferes"
+      price={136} />
 
   </React.StrictMode>,
 )

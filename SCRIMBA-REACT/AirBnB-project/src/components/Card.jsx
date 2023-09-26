@@ -1,23 +1,22 @@
 import React from 'react';
 import '@shoelace-style/shoelace/dist/components/rating/rating';
 
-const Card = () => {
-    const rating = 5.0;
+const Card = (props) => {
 
     return (
         <div className='container'>
-            <img src="./src/project-images/kattie.png" alt="image" />
+            <img src={`./src/project-images/${props.img}`} alt="image" />
             <div className="card-container">
                 <sl-rating
-                    value={rating}
+                    value={props.rating}
                     max={6}
                     className="rating"
                 ></sl-rating>
-                <span className="gray">5.0(6) • </span>
-                <span className="gray">USA</span>
+                <span className="gray">5.0({props.reviewCount}) • </span>
+                <span className="gray">{props.country}</span>
             </div>
-            <p>Life Lessons with Katie Zaferes</p>
-            <p><span className="bold">From $136</span> / person</p>
+            <p>{props.title}</p>
+            <p><span className="bold">From ${props.price}</span> / person</p>
         </div>
 
     );

@@ -1,8 +1,15 @@
 import React from 'react';
-
+/**
+ * Hero Component
+ *
+ * Represents the hero section of the webpage, featuring an image and a contact form.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered Hero component.
+ */
 const Hero = () => {
     return (
-        <section className="hero-container">
+        <header className="hero-container">
             <div className="hero-content">
                 <div className='project-image'>
                     <img src="./project-images/group-image.png" alt="image" />
@@ -50,7 +57,7 @@ const Hero = () => {
                     </form>
                 </div>
             </aside>
-        </section>
+        </header>
     );
 }
 

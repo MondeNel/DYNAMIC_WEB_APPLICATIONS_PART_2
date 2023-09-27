@@ -19,7 +19,7 @@ import '@shoelace-style/shoelace/dist/components/rating/rating';
 
 const Card = (props) => {
 
-    const badgeText = props.openSpots === 0 ? "SOLD OUT" : props.location === "Online" ? "ONLINE" : null;
+    const badgeText = props.item.openSpots === 0 ? "SOLD OUT" : props.item.location === "Online" ? "ONLINE" : null;
 
     return (
 
@@ -29,23 +29,23 @@ const Card = (props) => {
                 {badgeText && <div className="card-badge">{badgeText}</div>}
 
                 <img
-                    src={`/project-images/${props.img}`}
+                    src={`/project-images/${props.item.coverImg}`}
                     alt="image"
                     className="card-image"
                 />
 
                 <div className="card-stats">
-                    <sl-rating value={props.rating} max={1} className="card-star"></sl-rating>
-                    <span className="gray">({props.reviewCount}) • </span>
-                    <span className="gray">{props.location}</span>
+                    <sl-rating value={props.item.stats.rating} max={1} className="card-star"></sl-rating>
+                    <span className="gray">({props.item.stats.reviewCount}) • </span>
+                    <span className="gray">{props.item.location}</span>
                 </div>
 
                 <div className="card-title">
-                    <p>{props.title}</p>
+                    <p>{props.item.title}</p>
                 </div>
 
                 <div className="card-price">
-                    <p><span className="bold">From ${props.price}</span> / person</p>
+                    <p><span className="bold">From ${props.item.price}</span> / person</p>
                 </div>
 
             </div>

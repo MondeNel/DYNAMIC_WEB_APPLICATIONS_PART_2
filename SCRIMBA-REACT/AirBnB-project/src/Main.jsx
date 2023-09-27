@@ -16,13 +16,7 @@ createRoot(document.getElementById('root')).render(
       {data.map((item) => (
         <Card
           key={item.id}
-          img={item.coverImg}
-          rating={item.stats.rating}
-          reviewCount={item.stats.reviewCount}
-          location={item.location}
-          title={item.title}
-          price={item.price}
-          openSpots={item.openSpots}
+          item={item}
         />
       ))}
     </div>

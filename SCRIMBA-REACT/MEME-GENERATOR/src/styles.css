@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+/* =========================== Header ========================== */
+
+.Meme-logo {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.logo-text {
+    margin-right: auto;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.title-text {
+    margin-left: auto;
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word
+}
